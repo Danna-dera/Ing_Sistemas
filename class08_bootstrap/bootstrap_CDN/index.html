@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-primary" href="#">Desarrollo de software</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Proyectos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Webs a Medida</a></li>
+              <li><a class="dropdown-item" href="#">Aplicaciones Móviles</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Consultoría TI</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Próximamente</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar soluciones..." aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. CARRUSEL DE IMÁGENES -->
+  <div id="carouselExample" class="carousel slide shadow-sm mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Imagen 1 -->
+      <div class="carousel-item active">
+        <img src="https://info.kellyservices.com.mx/hubfs/crecimiento%20profesional%20de%20los%20colaboradores.jpg" class="d-block w-100" alt="desarrollo">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="fw-bold">Impulsamos tu Crecimiento</h2>
+          <p class="lead">Soluciones de software profesional orientadas al rendimiento y la colaboración de tu equipo.</p>
+        </div>
+      </div>
+
+      <!-- Imagen 2 -->
+      <div class="carousel-item">
+        <img src="https://www.appandweb.es/wp-content/uploads/2022/08/post-tipossoftware-Appandweb.jpg" class="d-block w-100" alt="software">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="fw-bold">Ingeniería & Código Moderno</h2>
+          <p class="lead">Desarrollamos aplicaciones web y móviles a la medida utilizando tecnologías de vanguardia.</p>
+        </div>
+      </div>
+
+      <!-- Imagen 3 -->
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4UxJ163rdLmRKAcp33b5EmBNAcmcPuz7fjGKUuGc4_flnZhkbUUd2OTfL&s=10" class="d-block w-100" alt="empresa">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="fw-bold">Transformación Digital</h2>
+          <p class="lead">Optimizamos los procesos de tu empresa mediante la integración e innovación tecnológica.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Botones de navegación -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- 3. CONTENIDO PRINCIPAL Y SERVICIOS -->
+  <main class="container my-5" id="servicios">
+    <div class="text-center mb-4">
+      <h2>Nuestras Soluciones Tecnológicas</h2>
+      <p class="text-muted">Explora los módulos y proyectos en los que trabajamos.</p>
+    </div>
+
+    <!-- Tarjetas de ejemplo -->
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Desarrollo Web</h5>
+            <p class="card-text">Construcción de plataformas robustas y escalables con estándares modernos de ingeniería de software.</p>
+          </div>
+          <div class="card-footer bg-transparent border-top-0">
+            <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Arquitectura de Software</h5>
+            <p class="card-text">Diseño de sistemas optimizados utilizando patrones de arquitectura y modelos orientados a objetos.</p>
+          </div>
+          <div class="card-footer bg-transparent border-top-0">
+            <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Bases de Datos & Cloud</h5>
+            <p class="card-text">Integración de soluciones cloud y gestión de datos con alto rendimiento y seguridad.</p>
+          </div>
+          <div class="card-footer bg-transparent border-top-0">
+            <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. PAGINACIÓN -->
+    <div class="d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Desarrollo de Software. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
